@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* header start */
+header {
+  padding: 15px 0;
+  background-color: #5495b39e;
+}
+
+.quick_container {
+  width: 90%;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+  overflow: hidden;
+}
+
+.logo {
+  width: 12%;
+  margin-top: 5px;
+  /* border: 1px solid black; */
+  float: left;
+}
+
+/* .logo a {
+} */
+
+.logo a img {
+  padding: 10px;
+  width: 100%;
+}
+
+.logo a img:hover {
+  /* background-color: red; */
+  border: 1px solid red;
+}
+
+.menu {
+  width: 70%;
+  /* border: 1px solid black; */
+  float: right;
+}
+.menu ul {
+  list-style: none;
+  float: right;
+  overflow: hidden;
+}
+.menu ul li {
+  float: left;
+}
+.menu ul li a {
+  color: green;
+  display: inline-block;
+  padding: 10px 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu ul li:last-child a {
+  padding-right: 0;
+}
+
+.menu ul li a:hover {
+  color: red;
+  border: 1px solid red;
+}
+/* header end */
+
+.container {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  /* border: 1px solid black; */
+}
+
+.container h2 {
+  text-align: left;
+}
+
+.s_shobai {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 60px;
+  border: 3px solid #dadada;
+}
+
+.location {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 60px;
+  border: 3px solid #dadada;
+}
+
+.youtube {
+  width: 100%;
+  height: 400px;
+  border: 3px solid #dadada;
+}
+
+.box_size {
+  border: 1px solid black;
+  overflow: hidden;
+  /* display: flex; */
+}
+
+.box_size .box {
+  box-sizing: border-box;
+  text-align: justify;
+  border: 10px solid tan;
+  margin-right: 1%;
+  padding: 25px;
+  width: 32.33%;
+  height: 250px;
+  float: left;
+}
+
+.green {
+  background-color: green;
+}
+
+.tometo {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.box_size p {
+  color: #fff;
+}
+
+/* download font use start */
+@font-face {
+  src: url(../fonts/poppins/poppins-regular.otf);
+  font-family: poppins-regular;
+}
+
+@font-face {
+  src: url(../fonts/poppins/poppins-thin.otf);
+  font-family: poppins-thin;
+}
+
+h2 {
+  background-color: antiquewhite;
+}
+
+.popince {
+  font-family: poppins-regular;
+}
+
+.p_thin {
+  font-family: poppins-thin;
+}
+/* download font use start */
